@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MediMeet - Premium Healthcare Video Consultations</title>
+    <meta name="description" content="Connect with healthcare professionals via secure, high-quality video consultations">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/6510466b6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="backdrop-gradient"></div>
+    
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/images/MediLink logo.png" alt="MediMeet Logo">
+            </div>
+            <nav class="nav-links">
+                <a href="" class="nav-link active">Home</a>
+                <a href="#Features" class="nav-link">Features</a>
+            </nav>
+            
+           
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="meeting-container">
+                    <div class="info-section">
+                        <div class="badge">
+                            <span><i class="fas fa-star"></i> Trusted by many  healthcare providers</span>
+                        </div>
+                        <h1>Virtual Healthcare <span class="text-gradient">Consultations</span> Made Simple</h1>
+                        <p>Connect with medical professionals through secure, high-quality video meetings in just one click. No downloads required.</p>
+                        
+                        <div class="action-card">
+                            <button id="createroom" class="btn btn-primary">
+                                <span>Create New Meeting</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            
+                            <div class="join-section">
+                                <div class="divider"><span>or join existing</span></div>
+                                <div class="room-input-group">
+                                    <div class="input-with-icon">
+                                        <i class="fas fa-users"></i>
+                                        <input type="text" name="room" spellcheck="false" placeholder="Enter meeting code" id="roomcode">
+                                    </div>
+                                    <button id="joinroom" class="btn btn-secondary">
+                                        <i class="fas fa-video"></i>
+                                        <span>Join</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="video-section">
+                        <div class="video-card">
+                            <div class="video-card-header">
+                                
+                                <div class="meeting-info">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Secure Connection</span>
+                                </div>
+                            </div>
+                            <div class="video-preview-container">
+                                <video class="video-self" autoplay muted playsinline></video>
+                                <div class="video-placeholder">
+                                    <div class="avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <p>Camera preview will appear here</p>
+                                </div>
+                                <div class="media-controls">
+                                    <button class="media-btn active" id="mic" title="Toggle Microphone">
+                                        <i class="fas fa-microphone"></i>
+                                    </button>
+                                    <button class="media-btn active primary" id="webcam" title="Toggle Camera">
+                                        <i class="fas fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="Features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Powerful Features for Healthcare Professionals</h2>
+                    <p>Everything you need for effective virtual consultations</p>
+                </div>
+                
+                <div class="features-grid">
+                  
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                          <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Real-Time Chat</h3>
+                        <p>Communicate effortlessly with patients through secure, real-time messaging. Share notes, prescriptions, and follow-up instructions during consultations.</p>
+                      </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chalkboard"></i>
+                        </div>
+                        <h3>Interactive Whiteboard</h3>
+                        <p>Explain complex medical concepts with our built-in digital whiteboard. Draw diagrams, annotate images, and collaborate in real-time.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Screen Sharing</h3>
+                        <p>Share lab results, medical records, or educational resources with patients directly during your consultation.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-comment-alt"></i>
+                        </div>
+                        <h3>Notification System</h3>
+                        <p>Stay informed with real-time notifications for patient arrivals, messages, and important events during your consultation.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Secure & Private</h3>
+                        <p>HIPAA-compliant platform with end-to-end encryption ensures patient data remains confidential and secure.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Simple Room Codes</h3>
+                        <p>Create and share unique meeting codes with patients for easy, one-click access to your virtual consultation room.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>High-Quality Video</h3>
+                        <p>Crystal clear video consultations with adaptive quality to ensure smooth connections even with variable internet speeds.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MediMeet. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/landing.js"></script>
+</body>
+</html>
