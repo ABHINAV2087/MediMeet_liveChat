@@ -6,6 +6,10 @@
 
 This project is a platform designed to facilitate direct, one-on-one video consultations with doctors. The platform includes several features to enhance the consultation experience, such as video calling, chat, a collaborative whiteboard, and screen sharing.
 
+# Demo ![image](https://github.com/user-attachments/assets/d737bd9d-d18d-437d-a46d-950d49d50044)
+
+[![Watch the Demo]]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=NPA-YceK7kw))
+
 ## Features
 
 1. **Video Calls**
